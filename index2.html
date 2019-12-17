@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" class="demo-2">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>CIA - ConnectedIn Analysis</title>
+		<meta name="description" content="Custom Heading Set Styling with CSS" />
+		<meta name="keywords" content="headings, h1, h2, h3, styling, css, vertical rythm, custom, creative, styles" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,700|Muli' rel='stylesheet' type='text/css'>
+		<script src="js/modernizr.custom.63321.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			
+			<header>
+				<h1><strong>CIA</strong> - ConnectedIn Analysis</h1>
+				<h2>Social Media Technologies - 2019 Alma Mater Studiorum - Prof. Giorgio Carlo Cappello</h2>
+				<h2>Davide Apolloni and Katarina Lucic's LinkedIn social networks</h2>
+			</header>
+			<section class="main">
+				<p>The idea for this project arose after having realized how our Linkedin connections are at the same time different and similar. Therefore, we thought that building a network graph and performing a deep analysis on the data we gathered would have been useful to analyze this situation better.</p>
+				<p></p>
+				<p>The first thing to do was collecting our data. How? We discovered that LinkedIn provides a very useful feature, allowing its users to download several CSV files containing all the data related to their account, including connections, contact, history and more.</p>
+				<br>	
+				<img src="images/data.png" alt="data" class="responsive">
+				<br>
+				<p></p>
+				<p>After waiting 24 hours, LinkedIn provided us with all our data. In succession, we looked for a way to display this data in an interactive graph, and we found what we were looking for thanks to a tool called Flourish.</p>
+				<br>
+				<h1>Our LinkedIn Social Network</h1>
+				<p><a href="https://flourish.studio/"><u>Flourish</u></a> is a tool allowing users to display and visualize their data. We uploaded and customized the CSV files that LinkedIn provided us and we obtained the following result:</p>
+				<br>
+				<div class="flourish-embed" data-src="visualisation/1111579"></div><script src="https://public.flourish.studio/resources/embed.js"></script>	
+				<p>The blue points positioned in the center are Davide and Katarina, the main points from which the analysis develops.</p>
+				<p>All the other points represent our contacts, and they are categorized according to their occupation/position. As one can see, our contacts are devoted to many different professions, and our shared contacts belong to Bologna's University.</p>
+				<br>
+				<iframe width="473.04582210242586" height="292.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQufZGUmIvgFz_2teTlvz5fvGIdPQDIRFrJi54wuomZmDsz6n0DRGVBSJ2wVQ5yMAnDzfDNd63h9ckE/pubchart?oid=1712444616&amp;format=interactive"; style="margin-left:25%; border-radius: 10px; border: 2px solid black;"></iframe>
+				<h2>Statistical analysis</h2>
+				<h3>Professions</h3>
+				<p>The first analysis allowed us to see that our contacts' main occupation is being students:</p>
+				<br>
+				<iframe id="iframe2" src="https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vQufZGUmIvgFz_2teTlvz5fvGIdPQDIRFrJi54wuomZmDsz6n0DRGVBSJ2wVQ5yMAnDzfDNd63h9ckE/pubchart?oid=863543044&format=interactive"; style="width: 52%; height: 280px; margin-left:26%; border-radius: 10px; border: 2px solid black;"></iframe>
+				<br>
+				<br>
+				<p>By analyzing them, we measured that 55,6% attents Bologna's University. Another big part of the graph is taken by Verona's University students, but they are not shared contacts.</p>
+				<br>
+				<iframe width="530.34791215589235" height="300" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQufZGUmIvgFz_2teTlvz5fvGIdPQDIRFrJi54wuomZmDsz6n0DRGVBSJ2wVQ5yMAnDzfDNd63h9ckE/pubchart?oid=1214646614&amp;format=interactive"; style="width: 49%; height: 260px; margin-left:27%; border-radius: 10px; border: 2px solid black;"></iframe> 
+				<br>
+				<br>
+				<p>In succession, we analyzed our top 5 professions' connections, i.e. the most spread occupations of our contacts. We first analyzed them individually, and then we found the most popular professions by combining our networks.</p>
+				<br>
+				<iframe width="507.5" height="313.7971517253456" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQufZGUmIvgFz_2teTlvz5fvGIdPQDIRFrJi54wuomZmDsz6n0DRGVBSJ2wVQ5yMAnDzfDNd63h9ckE/pubchart?oid=2147379113&amp;format=interactive"; style="width: 58%; height: 320px; margin-left:22%; border-radius: 10px; border: 2px solid black;"></iframe>
+				<br>
+				<br>
+				<iframe width="507.49999999999994" height="313.7971517253456" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQufZGUmIvgFz_2teTlvz5fvGIdPQDIRFrJi54wuomZmDsz6n0DRGVBSJ2wVQ5yMAnDzfDNd63h9ckE/pubchart?oid=2037402810&amp;format=interactive"; style="width: 58%; height: 320px; margin-left:22%; border-radius: 10px; border: 2px solid black;"></iframe>
+				<br>
+				<br>
+				<iframe width="507.5" height="313.79715172534554" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQufZGUmIvgFz_2teTlvz5fvGIdPQDIRFrJi54wuomZmDsz6n0DRGVBSJ2wVQ5yMAnDzfDNd63h9ckE/pubchart?oid=1623332127&amp;format=interactive"; style="width: 58%; height: 320px; margin-left:22%; border-radius: 10px; border: 2px solid black;"></iframe>
+				<br>
+				<br>
+				<p>Davide and Katarina's shared contacts are 20. All of them belong to Bologna's University.</p>
+				<h3>Provenance</h3>
+				<p>Our analysis highlited that Davide's contacts are mostly Italians, whereas Katarina's are spread in different parts of the world.</p>
+				<br>
+				<iframe width="647" height="400" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQufZGUmIvgFz_2teTlvz5fvGIdPQDIRFrJi54wuomZmDsz6n0DRGVBSJ2wVQ5yMAnDzfDNd63h9ckE/pubchart?oid=573903348&amp;format=interactive"; style="margin-left:14%; border-radius: 10px; border: 2px solid black;"></iframe>
+				<br>
+				<br>
+				<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQufZGUmIvgFz_2teTlvz5fvGIdPQDIRFrJi54wuomZmDsz6n0DRGVBSJ2wVQ5yMAnDzfDNd63h9ckE/pubchart?oid=1726847906&amp;format=interactive"; style="margin-left:17%; border-radius: 10px; border: 2px solid black;"></iframe>
+				<h2>Conclusions</h2>
+				<p>Our analysis</p>
+
+				<p><a class="ref" href="#">All rights reserved</a></p>
+			</section>
+		</div>
+	</body>
+</html>
